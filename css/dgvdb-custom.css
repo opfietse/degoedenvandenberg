@@ -1,0 +1,471 @@
+.text-dgvdb-blauw {
+    color: var(--dgvdb-blauw);
+}
+
+.text-dgvdb-rood {
+    color: var(--dgvdb-rood);
+}
+
+.text-dgvdb-wittig {
+    color: var(--dgvdb-wittig);
+}
+
+.text-dgvdb-groen {
+    color: var(--dgvdb-groen);
+}
+
+.text-dgvdb-beige {
+    color: var(--dgvdb-beige);
+}
+
+.bg-dgvdb-blauw {
+    background-color: var(--dgvdb-blauw);
+}
+
+.bg-dgvdb-rood {
+    background-color: var(--dgvdb-rood);
+}
+
+.bg-dgvdb-wittig {
+    background-color: var(--dgvdb-wittig);
+}
+
+.bg-dgvdb-groen {
+    background-color: var(--dgvdb-groen);
+}
+
+.bg-dgvdb-beige {
+    background-color: var(--dgvdb-beige);
+}
+
+/* set a max-width for horizontal fluid layout and make it centered */
+/* .container-fluid {
+  margin-right: auto;
+  margin-left: auto; */
+/*  max-width: 1600px;*/ /* 1600 or 950px */
+/* } */
+
+.fs-5 {
+    font-size: 1.10rem !important;
+    /*font-size: 1.25rem !important;*/
+}
+
+/*.fs-55 {*/
+/*    font-size: 1.25rem !important;*/
+/*    !*font-size: 1.25rem !important;*!*/
+/*}*/
+
+@font-face {
+    font-family: "Helvetica Neue Light";
+    font-style: normal;
+    font-weight: 400;
+    src: url(HelveticaNeue-Light.ttf) format("truetype");
+}
+
+/*body {*/
+/*    font-family: Helvetica Neue Light, Helvetica Neue, Helvetica, sans-serif;*/
+/*    font-size: 14px;*/
+/*}*/
+
+/* cvdb: div {*/
+/*    font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;*/
+/*    font-size: 13px;*/
+/*}*/
+
+div {
+    font-family: "Times New Roman", Times, sans-serif;
+    font-size: 13px;
+}
+
+/*p {*/
+/*    font-family: Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, sans-serif;*/
+/*    font-size: 17px;*/
+/*    font-style: normal;*/
+/*    font-variant: normal;*/
+/*    font-weight: 400;*/
+/*    line-height: 21px;*/
+/*}*/
+
+/*h1 {*/
+/*    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;*/
+/*    font-size: 24px;*/
+/*    font-style: normal;*/
+/*    font-variant: normal;*/
+/*    font-weight: 700;*/
+/*    line-height: 26.4px;*/
+/*}*/
+
+.dgvdb-h2 {
+    font-size: 1.4em;
+    /*margin: .75em 0*/
+}
+
+/*h3 {*/
+/*    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;*/
+/*    font-size: 14px;*/
+/*    font-style: normal;*/
+/*    font-variant: normal;*/
+/*    font-weight: 700;*/
+/*    line-height: 15.4px;*/
+/*}*/
+
+/*p {*/
+/*    font-family: Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, sans-serif;*/
+/*    font-size: 17px;*/
+/*    font-style: normal;*/
+/*    font-variant: normal;*/
+/*    font-weight: 400;*/
+/*    line-height: 21px;*/
+/*}*/
+
+/*blockquote {*/
+/*    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;*/
+/*    font-size: 21px;*/
+/*    font-style: normal;*/
+/*    font-variant: normal;*/
+/*    font-weight: 400;*/
+/*    line-height: 30px;*/
+/*}*/
+
+/*pre {*/
+/*    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;*/
+/*    font-size: 13px;*/
+/*    font-style: normal;*/
+/*    font-variant: normal;*/
+/*    font-weight: 400;*/
+/*    line-height: 18.5667px;*/
+/*}*/
+
+
+.water {
+    /* color: var(--dgvdb-rood); */
+    background-size: cover;
+    background-position: center;
+    background-image: url("../media/schotland-h.jpg");
+}
+
+.bg-eiland {
+    /* width: 1280px; */
+    /* height: 415.1px; */
+    /* margin: 82px 0 85.9px; */
+    /* margin: 82px 0 85.9px; */
+    background-repeat: no-repeat;
+    /* background-image: url( '../media/Eiland.svg' ); */
+    background-image: url('../media/Eiland.svg');
+}
+
+.bg-eiland1 {
+    /* top: 349px; */
+    /* left: -7.13037109375px; */
+    /* width: 1294px; */
+    /* height: 454px; */
+
+    background-size: cover;
+    background-position: center;
+
+    background-repeat: no-repeat;
+    background-image: url('../media/Eiland1.png');
+    /* background: transparent url('../media/Eiland1.png') 0% 0% no-repeat padding-box; */
+    /* opacity: 1; */
+}
+
+.svg-logo-up {
+    position: relative;
+    bottom: +12px;
+}
+
+.shift-down {
+    position: relative;
+    bottom: -40px;
+}
+
+@media screen and (min-width: 480px) {
+    .shift-down {
+        position: relative;
+        bottom: -40px;
+    }
+}
+
+@media screen and (min-width: 701px) {
+    .shift-down {
+        position: relative;
+        bottom: -80px;
+    }
+}
+
+.margin-eiland {
+    /* margin-top: 30vw !important; */
+    /* margin-bottom: 30vw !important; */
+    /* margin-top: 100px !important; */
+    padding-top: 100px;
+    /* margin-bottom: 200px !important; */
+    padding-bottom: 400px;
+}
+
+.rectangle-5 {
+    /* width: 524px; */
+    /*width: vw*/
+    /* height: 82px; */
+    /* margin: 27px 660px 386px 96px; */
+    width: 326px;
+    /* height: 82px; */
+    padding: 13px 41px 12px;
+    border-radius: 41px;
+    /* background-color: #80b19a; */
+}
+
+@media screen and (min-width: 701px) {
+    .rectangle-5 {
+        /* width: 524px; */
+        /*width: vw*/
+        /* height: 82px; */
+        /* margin: 27px 660px 386px 96px; */
+        width: 440px;
+        /* height: 82px; */
+        padding: 13px 41px 12px;
+        border-radius: 41px;
+        /* background-color: #80b19a; */
+    }
+}
+
+.welkom {
+    /* width: 83px; */
+    /* height: 23px; */
+    /* margin: 168px 128px 32px 502.5px; */
+    /* margin: 16vw 12vw 3vw 50vw; */
+    margin-top: 8vw;
+    margin-bottom: 8vw;
+    font-size: 23px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    text-align: left;
+    color: #23395b;
+}
+
+/* margin: top right bottom left */
+
+.vraag {
+    /* width: 524px; */
+    /* height: 94px; */
+    /* margin: 149px 7.5px 0 0; */
+    margin: 0 20vw 0 0;
+    font-family: Helvetica;
+    font-size: 23px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: oblique;
+    line-height: 1.42;
+    letter-spacing: normal;
+    text-align: left;
+    color: #23395b;
+}
+
+.menu-shadow {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.text-margin-dgvdb {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.text-margin-left-dgvdb {
+    margin-left: 3vw;
+}
+
+.text-margin-left-text-dgvdb {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.text-margin-left-text-foto-dgvdb {
+    padding-left: 3vw;
+    padding-right: 5vw;
+}
+
+.img-size-left-text-foto-dgvdb {
+    /*width: 200px;*/
+    padding: 20px;
+}
+
+@media screen and (min-width: 701px) {
+    .img-size-left-text-foto-dgvdb {
+        /*width: 250px;*/
+        padding: 30px;
+    }
+}
+
+.text-margin-right-text-dgvdb {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+@media screen and (min-width: 480px) {
+    .text-margin-dgvdb {
+        margin-left: 8vw;
+        margin-right: 8vw;
+    }
+
+    .text-margin-left-text-dgvdb {
+        margin-left: 10vw;
+        margin-right: 20vw;
+    }
+
+    .text-margin-right-text-dgvdb {
+        margin-left: 20vw;
+        margin-right: 5vw;
+    }
+}
+
+@media screen and (min-width: 701px) {
+    .text-margin-dgvdb {
+        margin-left: 14vw;
+        margin-right: 14vw;
+    }
+
+    .text-margin-left-text-dgvdb {
+        margin-left: 17vw;
+        margin-right: 34vw;
+    }
+
+    .text-margin-right-text-dgvdb {
+        margin-left: 34vw;
+        margin-right: 17vw;
+    }
+}
+
+@media screen and (min-width: 901px) {
+    .text-margin-dgvdb {
+        margin-left: 18vw;
+        margin-right: 18vw;
+    }
+
+    .text-margin-left-text-dgvdb {
+        margin-left: 22vw;
+        margin-right: 44vw;
+    }
+
+    .text-margin-right-text-dgvdb {
+        margin-left: 44vw;
+        margin-right: 14vw;
+    }
+}
+
+.fs-7 {
+    font-size: 0.75rem !important;
+}
+
+/* .navbar-custom {
+  height: 450px;
+}
+*/
+
+.connecting-image {
+    position: absolute;
+    /* bottom: -24%; */
+    bottom: -140%;
+    /* left: 50%; */
+    left: 50%;
+    /* transform: translateX(-50%); */
+    transform: translateX(-50%);
+    width: 350px;
+    /* width: 30vw; */
+    height: auto;
+}
+
+.connecting-image-landscape {
+    position: absolute;
+    /* bottom: -24%; */
+    bottom: -50%;
+    /* left: 50%; */
+    left: 50%;
+    /* transform: translateX(-50%); */
+    transform: translateX(-50%);
+    width: 300px;
+    /* width: 30vw; */
+    height: auto;
+}
+
+@media screen and (min-width: 480px) {
+    .connecting-image-landscape {
+        position: absolute;
+        /* bottom: -24%; */
+        bottom: -80%;
+        /* left: 50%; */
+        left: 50%;
+        /* transform: translateX(-50%); */
+        transform: translateX(-50%);
+        width: 450px;
+        /* width: 30vw; */
+        height: auto;
+    }
+}
+
+/* @media screen and (min-width: 701px) {
+  .connecting-image {
+    position: absolute;
+    bottom: -50%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: auto;
+  }
+} */
+
+.balk {
+    /* background-color: #81B29A; */
+    position: relative;
+    /* height: 477px; */
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.balk-landscape {
+    /* background-color: #81B29A; */
+    position: relative;
+    /* height: 477px; */
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.img-hover-zoom {
+    /*height: 300px; !* [1.1] Set it as per your need *!*/
+    /*overflow: hidden; !* [1.2] Hide the overflowing of child elements *!*/
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+    transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+    transform: scale(2.0);
+}
+
+.img-hover-zoom-little {
+    /*height: 300px; !* [1.1] Set it as per your need *!*/
+    /*overflow: hidden; !* [1.2] Hide the overflowing of child elements *!*/
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom-little img {
+    transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom-little:hover img {
+    transform: scale(1.4);
+}
+
+.custom-toggler.navbar-toggler {
+    border: 0;
+    /* border-color: var(--dgvdb-wittig); */
+}

@@ -1,0 +1,5 @@
+name: my_project
+dev_dependencies:
+  sass: ^1.79.4
+environment:
+  sdk: '^3.2.0'

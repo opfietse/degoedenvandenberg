@@ -1,0 +1,7 @@
+.DS_Store
+#bootstrap
+
+.idea/
+
+.dart_tool/
+*.lock

@@ -73,10 +73,16 @@
 /*}*/
 
 div {
-    font-family: "Times New Roman", sans-serif;
+    font-family: "Helvetica Neue Light", sans-serif;
     font-size: 16px;
     line-height: 1.5;
 }
+
+/*.tex-helv {*/
+/*    font-family: "Helvetica", sans-serif;*/
+/*    font-size: 16px;*/
+/*    line-height: 1.5;*/
+/*}*/
 
 .dgvdb-h2 {
     font-size: 1.4em;
